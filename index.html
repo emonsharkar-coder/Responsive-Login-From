@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css/style.css"> <!-- Optional custom styles -->
+</head>
+<body class="bg-gray-200 flex justify-center items-center h-screen">
+
+  <div class="bg-white p-8 rounded shadow-md w-full sm:w-96">
+    <h2 class="text-2xl font-bold mb-4 text-center">Login</h2>
+
+    <form action="#" class="space-y-4">
+      <div>
+        <label for="username" class="block mb-1">Username or Email</label>
+        <input type="text" id="username" name="username" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500 transition-colors" required>
+      </div>
+
+      <div>
+        <label for="password" class="block mb-1">Password</label>
+        <input type="password" id="password" name="password" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500 transition-colors" required>
+      </div>
+
+      <button type="submit" class="w-full bg-blue-500 hover:bg-blue-600 text-white py-2 rounded transition-colors">Login</button>
+    </form>
+  </div>
+
+</body>
+</html>
